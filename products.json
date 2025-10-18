@@ -1,0 +1,220 @@
+{
+  "info": {
+    "company": "TechStart Digital Solutions",
+    "lastUpdated": "2024-01-15",
+    "version": "1.0.0",
+    "description": "Complete product catalog for TechStart Digital Ecosystem"
+  },
+  "categories": [
+    {
+      "id": "web",
+      "name": "Web Development",
+      "description": "Complete web development solutions and services",
+      "icon": "fas fa-code"
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile Applications",
+      "description": "Cross-platform mobile app development",
+      "icon": "fas fa-mobile-alt"
+    },
+    {
+      "id": "api",
+      "name": "API Services",
+      "description": "RESTful APIs and system integrations",
+      "icon": "fas fa-plug"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Web Development Package",
+      "description": "Complete web development solution with modern frameworks including React, Node.js, and MongoDB",
+      "category": "web",
+      "price": {
+        "amount": 2999.00,
+        "currency": "USD"
+      },
+      "image": "fas fa-code",
+      "tags": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+      "features": [
+        "Responsive Design",
+        "SEO Optimization",
+        "Database Integration",
+        "User Authentication",
+        "Payment Processing"
+      ],
+      "availability": "In Stock",
+      "rating": 4.8,
+      "reviews": 127
+    },
+    {
+      "id": 2,
+      "name": "Mobile App Development",
+      "description": "Cross-platform mobile app development using React Native for iOS and Android",
+      "category": "mobile",
+      "price": {
+        "amount": 3499.00,
+        "currency": "USD"
+      },
+      "image": "fas fa-mobile-alt",
+      "tags": ["React Native", "iOS", "Android", "Cross-platform", "App Store"],
+      "features": [
+        "iOS & Android Support",
+        "Native Performance",
+        "Push Notifications",
+        "Offline Capability",
+        "App Store Deployment"
+      ],
+      "availability": "In Stock",
+      "rating": 4.9,
+      "reviews": 89
+    },
+    {
+      "id": 3,
+      "name": "API Integration Service",
+      "description": "RESTful API development and third-party integrations for seamless data flow",
+      "category": "api",
+      "price": {
+        "amount": 1999.00,
+        "currency": "USD"
+      },
+      "image": "fas fa-plug",
+      "tags": ["REST API", "Node.js", "Express", "MongoDB", "Authentication"],
+      "features": [
+        "RESTful Architecture",
+        "JWT Authentication",
+        "Rate Limiting",
+        "API Documentation",
+        "Third-party Integrations"
+      ],
+      "availability": "In Stock",
+      "rating": 4.7,
+      "reviews": 156
+    },
+    {
+      "id": 4,
+      "name": "E-commerce Solution",
+      "description": "Complete e-commerce platform with payment integration and inventory management",
+      "category": "web",
+      "price": {
+        "amount": 4999.00,
+        "currency": "USD"
+      },
+      "image": "fas fa-shopping-cart",
+      "tags": ["E-commerce", "Payment", "Inventory", "Analytics", "CMS"],
+      "features": [
+        "Product Management",
+        "Payment Gateway Integration",
+        "Order Processing",
+        "Inventory Tracking",
+        "Analytics Dashboard"
+      ],
+      "availability": "In Stock",
+      "rating": 4.9,
+      "reviews": 203
+    },
+    {
+      "id": 5,
+      "name": "Cloud Migration Service",
+      "description": "Migrate your applications to cloud platforms with zero downtime",
+      "category": "api",
+      "price": {
+        "amount": 2499.00,
+        "currency": "USD"
+      },
+      "image": "fas fa-cloud",
+      "tags": ["AWS", "Azure", "Google Cloud", "DevOps", "Migration"],
+      "features": [
+        "Zero Downtime Migration",
+        "Cloud Architecture Design",
+        "Security Implementation",
+        "Performance Optimization",
+        "24/7 Support"
+      ],
+      "availability": "In Stock",
+      "rating": 4.6,
+      "reviews": 78
+    },
+    {
+      "id": 6,
+      "name": "UI/UX Design Package",
+      "description": "Modern user interface and experience design with prototyping",
+      "category": "web",
+      "price": {
+        "amount": 1799.00,
+        "currency": "USD"
+      },
+      "image": "fas fa-paint-brush",
+      "tags": ["Figma", "Adobe XD", "Prototyping", "User Research", "Design System"],
+      "features": [
+        "User Research",
+        "Wireframing",
+        "Prototyping",
+        "Design System",
+        "Usability Testing"
+      ],
+      "availability": "In Stock",
+      "rating": 4.8,
+      "reviews": 94
+    },
+    {
+      "id": 7,
+      "name": "Progressive Web App",
+      "description": "Modern PWA with offline capabilities and app-like experience",
+      "category": "web",
+      "price": {
+        "amount": 2299.00,
+        "currency": "USD"
+      },
+      "image": "fas fa-globe",
+      "tags": ["PWA", "Service Workers", "Offline", "Push Notifications", "Responsive"],
+      "features": [
+        "Offline Functionality",
+        "Push Notifications",
+        "App-like Experience",
+        "Cross-platform",
+        "Fast Loading"
+      ],
+      "availability": "In Stock",
+      "rating": 4.7,
+      "reviews": 112
+    },
+    {
+      "id": 8,
+      "name": "AI Integration Service",
+      "description": "Integrate artificial intelligence and machine learning capabilities",
+      "category": "api",
+      "price": {
+        "amount": 3999.00,
+        "currency": "USD"
+      },
+      "image": "fas fa-brain",
+      "tags": ["AI", "Machine Learning", "Python", "TensorFlow", "API"],
+      "features": [
+        "Machine Learning Models",
+        "Natural Language Processing",
+        "Image Recognition",
+        "Predictive Analytics",
+        "Custom AI Solutions"
+      ],
+      "availability": "In Stock",
+      "rating": 4.9,
+      "reviews": 67
+    }
+  ],
+  "pricing": {
+    "discounts": {
+      "web": 0.15,
+      "mobile": 0.10,
+      "api": 0.20
+    },
+    "currencyRates": {
+      "USD": 1.0,
+      "EUR": 0.85,
+      "GBP": 0.73,
+      "CAD": 1.35,
+      "AUD": 1.45
+    }
+  }
+}

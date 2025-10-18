@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStart Digital Ecosystem - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                <span>TechStart</span>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#spt1" class="nav-link">SPT1</a>
+                <a href="#ws101" class="nav-link">WS101</a>
+                <a href="#spt2" class="nav-link">SPT2</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Welcome to TechStart Digital Ecosystem</h1>
+                    <p class="hero-subtitle">Your complete solution for modern web development, system integration, and mobile app prototyping</p>
+                    
+                    <!-- Main Navigation Buttons -->
+                    <div class="main-nav-buttons">
+                        <button class="nav-btn spt1-btn" onclick="showSection('spt1')">
+                            <i class="fas fa-code"></i>
+                            <span>SPT1</span>
+                            <small>Frontend Web Development</small>
+                        </button>
+                        <button class="nav-btn ws101-btn" onclick="showSection('ws101')">
+                            <i class="fas fa-cogs"></i>
+                            <span>WS101</span>
+                            <small>System Integration & APIs</small>
+                        </button>
+                        <button class="nav-btn spt2-btn" onclick="showSection('spt2')">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>SPT2</span>
+                            <small>Mobile App Prototyping</small>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SPT1 Section -->
+            <section id="spt1" class="section hidden">
+                <div class="section-header">
+                    <h2>SPT1 - Frontend Web Development</h2>
+                    <p>Interactive Profile Website with JavaScript Features</p>
+                </div>
+                
+                <div class="profile-container">
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <h3>Shanael Angelyn Orodio</h3>
+                            <p>BSIT 3rd Year Student</p>
+                            <p class="profile-subtitle">Aspiring Full Stack Developer</p>
+                        </div>
+                        
+                        <div class="profile-content">
+                            <div class="profile-info">
+                                <div class="info-item">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>Bachelor of Science in Information Technology</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>3rd Year Student</span>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-code"></i>
+                                    <span>Web Development Enthusiast</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-bars">
+                                <div class="skill-item">
+                                    <span>HTML/CSS</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="92%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>JavaScript</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="88%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>Python</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>Java</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>React</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="75%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>Node.js</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>MySQL</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="78%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>Git/GitHub</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="82%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="profile-sections">
+                                <div class="section-item">
+                                    <h4><i class="fas fa-project-diagram"></i> Recent Projects</h4>
+                                    <ul>
+                                        <li>E-commerce Website with React & Node.js</li>
+                                        <li>Student Management System in Java</li>
+                                        <li>Weather App using JavaScript APIs</li>
+                                        <li>Portfolio Website with Responsive Design</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="section-item">
+                                    <h4><i class="fas fa-trophy"></i> Achievements</h4>
+                                    <ul>
+                                        <li>Dean's List - 2nd Year</li>
+                                        <li>Best Project Award - Web Development</li>
+                                        <li>Hackathon Participant - 2023</li>
+                                        <li>IT Club Member</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="section-item">
+                                    <h4><i class="fas fa-heart"></i> Interests</h4>
+                                    <div class="interests">
+                                        <span class="interest-tag">Web Development</span>
+                                        <span class="interest-tag">Mobile Apps</span>
+                                        <span class="interest-tag">UI/UX Design</span>
+                                        <span class="interest-tag">Database Design</span>
+                                        <span class="interest-tag">Machine Learning</span>
+                                        <span class="interest-tag">Open Source</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="interactive-demo">
+                                <h4>Interactive Features Demo</h4>
+                                <button class="demo-btn" onclick="animateSkills()">Animate Skills</button>
+                                <button class="demo-btn" onclick="showContactForm()">Contact Me</button>
+                                <button class="demo-btn" onclick="changeTheme()">Change Theme</button>
+                                <button class="demo-btn" onclick="showResume()">View Resume</button>
+                                <button class="demo-btn products-btn" onclick="showProducts()">View Products</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products Section within SPT1 -->
+                <div class="products-section hidden" id="spt1Products">
+                    <div class="section-header">
+                        <h2>Dynamic Product Showcase</h2>
+                        <p>XML/JSON Product System with Real-time Pricing</p>
+                    </div>
+                    
+                    <div class="products-container">
+                        <div class="product-controls">
+                            <div class="product-filters">
+                                <button class="filter-btn active" onclick="filterProducts('all')">All Products</button>
+                                <button class="filter-btn" onclick="filterProducts('web')">Web Development</button>
+                                <button class="filter-btn" onclick="filterProducts('mobile')">Mobile Apps</button>
+                                <button class="filter-btn" onclick="filterProducts('api')">API Services</button>
+                            </div>
+                            
+                            <div class="product-search">
+                                <input type="text" id="productSearch" placeholder="Search products..." onkeyup="searchProducts(this.value)">
+                                <select id="currencySelect" onchange="changeCurrency(this.value)">
+                                    <option value="USD">USD ($)</option>
+                                    <option value="EUR">EUR (€)</option>
+                                    <option value="GBP">GBP (£)</option>
+                                    <option value="CAD">CAD (C$)</option>
+                                    <option value="AUD">AUD (A$)</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="product-count" id="productCount">Loading products...</div>
+                        
+                        <div class="products-grid" id="productsGrid">
+                            <!-- Products will be loaded dynamically from XML/JSON -->
+                        </div>
+                    </div>
+                    
+                    <!-- Shopping Cart Section -->
+                    <div class="cart-section" id="cartSection">
+                        <div class="cart-header">
+                            <h3><i class="fas fa-shopping-cart"></i> Shopping Cart</h3>
+                            <button class="cart-toggle" onclick="toggleCart()">
+                                <i class="fas fa-chevron-up" id="cartToggleIcon"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="cart-content" id="cartContent">
+                            <div class="cart-items" id="cartItems">
+                                <div class="empty-cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <p>Your cart is empty</p>
+                                    <small>Add some products to get started!</small>
+                                </div>
+                            </div>
+                            
+                            <div class="cart-summary" id="cartSummary">
+                                <div class="cart-totals">
+                                    <div class="total-line">
+                                        <span>Subtotal:</span>
+                                        <span id="cartSubtotal">$0.00</span>
+                                    </div>
+                                    <div class="total-line">
+                                        <span>Tax (10%):</span>
+                                        <span id="cartTax">$0.00</span>
+                                    </div>
+                                    <div class="total-line total-final">
+                                        <span>Total:</span>
+                                        <span id="cartTotal">$0.00</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="cart-actions">
+                                    <button class="btn-secondary" onclick="clearCart()">
+                                        <i class="fas fa-trash"></i> Clear Cart
+                                    </button>
+                                    <button class="btn-primary" onclick="checkout()">
+                                        <i class="fas fa-credit-card"></i> Checkout
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Modal -->
+                <div id="contactModal" class="modal hidden">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <h3>Contact Shanael</h3>
+                        <form id="contactForm" onsubmit="validateForm(event)">
+                            <div class="form-group">
+                                <label for="name">Your Name:</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email:</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject:</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <span class="error-message" id="subjectError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Hi Shanael, I'd like to discuss..."></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Resume Modal -->
+                <div id="resumeModal" class="modal hidden">
+                    <div class="modal-content resume-content">
+                        <span class="close" onclick="closeResumeModal()">&times;</span>
+                        <div class="resume-header">
+                            <h2>Shanael Angelyn Orodio</h2>
+                            <p>BSIT 3rd Year Student | Aspiring Full Stack Developer</p>
+                            <div class="contact-info">
+                                <p><i class="fas fa-envelope"></i> shanael.orodio@email.com</p>
+                                <p><i class="fas fa-phone"></i> +63 912 345 6789</p>
+                                <p><i class="fas fa-map-marker-alt"></i> Philippines</p>
+                                <p><i class="fab fa-github"></i> github.com/shanael-orodio</p>
+                                <p><i class="fab fa-linkedin"></i> linkedin.com/in/shanael-orodio</p>
+                            </div>
+                        </div>
+                        
+                        <div class="resume-section">
+                            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                            <div class="education-item">
+                                <h4>Bachelor of Science in Information Technology</h4>
+                                <p>University Name | 2022 - Present</p>
+                                <p>Current: 3rd Year Student | GPA: 3.8/4.0</p>
+                            </div>
+                        </div>
+                        
+                        <div class="resume-section">
+                            <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h4>Frontend</h4>
+                                    <ul>
+                                        <li>HTML5, CSS3, JavaScript</li>
+                                        <li>React, Bootstrap</li>
+                                        <li>Responsive Design</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>Backend</h4>
+                                    <ul>
+                                        <li>Node.js, Express</li>
+                                        <li>Python, Java</li>
+                                        <li>RESTful APIs</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>Database</h4>
+                                    <ul>
+                                        <li>MySQL, MongoDB</li>
+                                        <li>Database Design</li>
+                                        <li>SQL Queries</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>Tools</h4>
+                                    <ul>
+                                        <li>Git, GitHub</li>
+                                        <li>VS Code, IntelliJ</li>
+                                        <li>Figma, Adobe XD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="resume-section">
+                            <h3><i class="fas fa-project-diagram"></i> Projects</h3>
+                            <div class="project-item">
+                                <h4>E-commerce Website</h4>
+                                <p>Full-stack web application with React frontend and Node.js backend</p>
+                                <p><strong>Tech Stack:</strong> React, Node.js, MongoDB, Express</p>
+                            </div>
+                            <div class="project-item">
+                                <h4>Student Management System</h4>
+                                <p>Desktop application for managing student records and grades</p>
+                                <p><strong>Tech Stack:</strong> Java, Swing, MySQL</p>
+                            </div>
+                            <div class="project-item">
+                                <h4>Weather App</h4>
+                                <p>Responsive web application displaying weather information</p>
+                                <p><strong>Tech Stack:</strong> JavaScript, HTML5, CSS3, Weather API</p>
+                            </div>
+                        </div>
+                        
+                        <div class="resume-actions">
+                            <button class="btn-primary" onclick="downloadResume()">Download Resume</button>
+                            <button class="btn-secondary" onclick="closeResumeModal()">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WS101 Section -->
+            <section id="ws101" class="section hidden">
+                <div class="section-header">
+                    <h2>WS101 - System Integration & APIs</h2>
+                    <p>Secure Login System with Google OAuth & Quiz Certification</p>
+                </div>
+                
+                <div class="ws101-container">
+                    <!-- Login Section -->
+                    <div class="login-section">
+                        <h3>Secure Login System</h3>
+                        <div class="login-form">
+                            <div class="form-group">
+                                <label for="loginEmail">Email:</label>
+                                <input type="email" id="loginEmail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="loginPassword">Password:</label>
+                                <div class="password-container">
+                                    <input type="password" id="loginPassword" required>
+                                    <button type="button" class="password-toggle" onclick="togglePassword()">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <button class="login-btn" onclick="handleLogin()">Login</button>
+                            <div id="g_id_onload"
+                                data-client_id="928220152911-350d2q8t8s7j4jsmdjo4n99rs4ae952g.apps.googleusercontent.com"
+                                data-callback="handleGoogleResponse"
+                                data-auto_prompt="false">
+                            </div>
+                            <div class="g_id_signin google-btn" 
+                                data-type="standard"
+                                data-size="large"
+                                data-theme="outline"
+                                data-text="sign_in_with"
+                                data-shape="rectangular"
+                                data-logo_alignment="left">
+                            </div>
+                            <button class="logout-btn" onclick="logout()" style="display: none;" id="logoutBtn">
+                                <i class="fas fa-sign-out-alt"></i>
+                                Logout
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quiz Section -->
+                <div class="quiz-section hidden" id="quizSection">
+                    <div class="section-header">
+                        <h2>Certification Quiz</h2>
+                        <p>Test your knowledge and earn a certificate</p>
+                    </div>
+                    <div class="quiz-container">
+                        <div class="quiz-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="quizProgress"></div>
+                            </div>
+                            <span id="progressText">Question 1 of 5</span>
+                        </div>
+                        
+                        <div class="question-container">
+                            <h4 id="questionText">What is the primary purpose of JavaScript in web development?</h4>
+                            <div class="options">
+                                <button class="option-btn" onclick="selectOption(this, 'A')">A) Styling web pages</button>
+                                <button class="option-btn" onclick="selectOption(this, 'B')">B) Adding interactivity and dynamic behavior</button>
+                                <button class="option-btn" onclick="selectOption(this, 'C')">C) Creating database schemas</button>
+                                <button class="option-btn" onclick="selectOption(this, 'D')">D) Managing server configurations</button>
+                            </div>
+                        </div>
+                        
+                        <div class="quiz-actions">
+                            <button class="quiz-btn" id="nextBtn" onclick="nextQuestion()" disabled>Next Question</button>
+                            <button class="quiz-btn" id="submitBtn" onclick="submitQuiz()" style="display: none;">Submit Quiz</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Score Section -->
+                <div class="score-section hidden" id="scoreSection">
+                    <div class="section-header">
+                        <h2>Quiz Results</h2>
+                        <p>Your performance summary</p>
+                    </div>
+                    <div class="score-container">
+                        <div class="score-display">
+                            <div class="score-circle">
+                                <div class="score-percentage" id="scorePercentage">0%</div>
+                            </div>
+                            <div class="score-details">
+                                <h3 id="scoreName">User Name</h3>
+                                <p class="score-message" id="scoreMessage">Great job!</p>
+                                <div class="score-breakdown">
+                                    <span id="scoreCorrect">0</span> out of <span id="scoreTotal">5</span> correct
+                                </div>
+                            </div>
+                        </div>
+                        <div class="score-actions">
+                            <button class="btn-primary" onclick="showCertificate(document.getElementById('scorePercentage').textContent)">View Certificate</button>
+                            <button class="btn-secondary" onclick="retakeQuiz()">Retake Quiz</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Certificate Section -->
+                <div class="certificate-section hidden" id="certificateSection">
+                    <div class="section-header">
+                        <h2>Certificate of Completion</h2>
+                        <p>Your achievement certificate</p>
+                    </div>
+                    <div class="certificate">
+                        <div class="certificate-header">
+                            <h2>Certificate of Completion</h2>
+                            <p>This certifies that</p>
+                            <h3 id="certificateName">Shanael Angelyn Orodio</h3>
+                            <p>has successfully completed the</p>
+                            <h4>Web Development Fundamentals Quiz</h4>
+                        </div>
+                        <div class="certificate-footer">
+                            <div class="certificate-date">
+                                <p>Date: <span id="certificateDate"></span></p>
+                            </div>
+                            <div class="certificate-score">
+                                <p>Score: <span id="certificateScore"></span>%</p>
+                            </div>
+                        </div>
+                        <button class="download-btn" onclick="downloadCertificate()">Download Certificate</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SPT2 Section -->
+            <section id="spt2" class="section hidden">
+                <div class="section-header">
+                    <h2>SPT2 - Mobile App Prototyping</h2>
+                    <p>Thunkable Mobile App Prototype Walkthrough</p>
+                </div>
+                
+                <div class="mobile-app-container">
+                    <div class="app-preview">
+                        <h3>Mobile App Prototype</h3>
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <div class="app-header">
+                                    <h4>TechStart App</h4>
+                                </div>
+                                <div class="app-content">
+                                    <div class="screen home-screen active" id="screen1">
+                                        <h5>Home Screen</h5>
+                                        <div class="nav-buttons">
+                                            <button class="app-btn" onclick="switchScreen(2)">Media Showcase</button>
+                                            <button class="app-btn" onclick="switchScreen(3)">Sign Up</button>
+                                        </div>
+                                    </div>
+                                    <div class="screen media-screen" id="screen2">
+                                        <h5>Media Showcase</h5>
+                                        <div class="media-content">
+                                            <div class="video-container">
+                                                <video controls>
+                                                    <source src="walktrought.mp4" type="video/mp4">
+                                                    Your browser does not support the video tag.
+                                                </video>
+                                            </div>
+                                            <p>App Walkthrough Video</p>
+                                        </div>
+                                        <button class="back-btn" onclick="switchScreen(1)">Back to Home</button>
+                                    </div>
+                                    <div class="screen signup-screen" id="screen3">
+                                        <h5>Sign Up</h5>
+                                        <div class="signup-form">
+                                            <input type="text" placeholder="Full Name" id="appName">
+                                            <input type="email" placeholder="Email" id="appEmail">
+                                            <input type="password" placeholder="Password" id="appPassword">
+                                            <button class="signup-btn" onclick="submitSignup()">Sign Up</button>
+                                        </div>
+                                        <button class="back-btn" onclick="switchScreen(1)">Back to Home</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="app-info">
+                        <h4>Thunkable Project Features</h4>
+                        <ul>
+                            <li>Multi-screen navigation</li>
+                            <li>Media showcase with video content</li>
+                            <li>User registration system</li>
+                            <li>Responsive design</li>
+                            <li>Cross-platform compatibility</li>
+                        </ul>
+                        <a href="https://x.thunkable.com/projects" target="_blank" class="thunkable-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Thunkable Project
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 TechStart Digital Ecosystem. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Google OAuth Script -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>

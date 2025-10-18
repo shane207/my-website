@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT products (info, categories, products)>
+
+<!ELEMENT info (company, lastUpdated, version, description)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT lastUpdated (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT categories (category+)>
+<!ELEMENT category (name, description, icon)>
+<!ATTLIST category id CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT icon (#PCDATA)>
+
+<!ELEMENT products (product+)>
+<!ELEMENT product (name, description, category, tagprice, image, tags, features, availability, rating, reviews)>
+<!ATTLIST product id CDATA #REQUIRED>
+
+<!ELEMENT tagprice (#PCDATA)>
+<!ATTLIST tagprice currency CDATA #REQUIRED>
+
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT tags (tag+)>
+<!ELEMENT tag (#PCDATA)>
+
+<!ELEMENT features (feature+)>
+<!ELEMENT feature (#PCDATA)>
+
+<!ELEMENT availability (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT reviews (#PCDATA)>
